@@ -1,0 +1,6 @@
+- name: "APT-common: Installing packages"
+  apt: name={{item}} state=installed
+  with_items:
+  - vim
+  - apt-transport-https
+
