@@ -3,4 +3,4 @@
   with_items:
   - vim
   - apt-transport-https
-
+  - libreoffice
